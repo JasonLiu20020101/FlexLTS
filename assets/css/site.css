@@ -234,29 +234,6 @@ video:focus-visible {
   text-transform: uppercase;
 }
 
-.section-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem 0.55rem;
-  margin-top: 2.75rem;
-}
-
-.section-nav a {
-  min-height: 2.35rem;
-  padding: 0.42rem 0.85rem;
-  border-radius: 999px;
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 750;
-  text-decoration: none;
-}
-
-.section-nav a:hover {
-  background: var(--blue-soft);
-  color: var(--blue);
-}
-
 .reading-width {
   max-width: 920px !important;
 }
@@ -331,18 +308,6 @@ video:focus-visible {
   width: 100%;
   height: auto;
   border-radius: calc(var(--radius-lg) - 0.45rem);
-}
-
-.method-figure figcaption {
-  margin-top: 0.75rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.55;
-  text-align: center;
-}
-
-.method-figure figcaption a {
-  font-weight: 750;
 }
 
 .results-intro {

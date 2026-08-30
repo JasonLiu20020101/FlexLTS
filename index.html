@@ -35,8 +35,8 @@
         </div>
 
         <div class="affiliations">
-          <p><sup>1</sup> State Key Laboratory of AI Safety, Institute of Computing Technology,<br class="affiliation-break"> Chinese Academy of Sciences</p>
-          <p><sup>2</sup> University of Chinese Academy of Sciences</p>
+          <p><sup>1</sup> State Key Laboratory of AI Safety, Institute of Computing Technology,<br class="affiliation-break"> Chinese Academy of Sciences, Beijing 100190, China</p>
+          <p><sup>2</sup> University of Chinese Academy of Sciences, Beijing 100190, China</p>
         </div>
 
         <div class="contacts" aria-label="Contact email addresses">
@@ -50,58 +50,46 @@
             Paper <span class="button-note">Coming soon</span>
           </a>
           <a class="button paper-link paper-link--secondary" href="https://github.com/JasonLiu20020101/FlexLTS" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-          <a class="button paper-link paper-link--secondary" href="#demo-results">Explore demos</a>
+          <a class="button paper-link paper-link--secondary" href="#demo-results">Explore Demos</a>
         </div>
-
-        <nav class="section-nav" aria-label="Page sections">
-          <a href="#abstract">Abstract</a>
-          <a href="#method-overview">Method</a>
-          <a href="#lrs2">LRS2-BBC</a>
-          <a href="#lrs3">LRS3-TED</a>
-          <a href="#real-world">Real World</a>
-        </nav>
       </div>
     </div>
   </header>
 
   <main id="main-content">
-    <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
-      <div class="container reading-width">
-        <p class="section-kicker">Overview</p>
-        <h2 class="title is-2" id="abstract-title">Abstract</h2>
-        <div class="abstract-copy">
-          <p>
-            Lip-to-speech (LTS) synthesis aims to generate intelligible speech from silent lip movements, but the ambiguous visual-to-phoneme mapping makes content-accurate synthesis challenging. Existing methods mainly follow two routes: (1) direct synthesis from lip movements and (2) synthesis dependent on an external lip-reading model. The former often suffers from content errors, while the latter improves content accuracy at the cost of computational overhead and error propagation. To address these limitations, we introduce FlexLTS, a unified paradigm for content-accurate LTS with optional lip reading. It generates accurate speech without requiring lip reading, while still benefiting from lip-reading text when available. FlexLTS learns phonetic prior embeddings from training transcripts and employs a visual-centric prior fusion mechanism to selectively incorporate relevant phonetic priors into the visual stream, yielding content-enriched semantic representations. Moreover, our proposed Progressive Textual Dropout strategy further promotes prior internalization by reducing reliance on explicit text during training. Experiments show that FlexLTS achieves state-of-the-art content accuracy and speech quality on the popular LRS2-BBC and LRS3-TED benchmarks and also performs well in cross-dataset zero-shot evaluation. Notably, without using any lip-reading model, FlexLTS surpasses existing lip-reading-aided methods in content accuracy.
-          </p>
+    <div class="overview-group" id="overview">
+      <!-- Optional figure: set showModelFigure to false in site-config.js to hide this section. -->
+      <section class="section method-overview-section" id="method-overview" aria-labelledby="method-overview-title">
+        <div class="container method-figure-width">
+          <div class="method-overview-heading">
+            <p class="section-kicker">Overview</p>
+            <h2 class="title is-2" id="method-overview-title">Framework</h2>
+          </div>
+          <figure class="method-figure">
+            <a class="method-figure-link" href="./assets/images/model_figure.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the original FlexLTS framework figure as a PDF">
+              <img
+                src="./assets/images/model_figure.png"
+                width="2400"
+                height="857"
+                loading="lazy"
+                decoding="async"
+                alt="Overview diagram of the FlexLTS framework">
+            </a>
+          </figure>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Optional figure: set showModelFigure to false in site-config.js to hide this section. -->
-    <section class="section method-overview-section" id="method-overview" aria-labelledby="method-overview-title">
-      <div class="container method-figure-width">
-        <div class="method-overview-heading">
-          <p class="section-kicker">Framework</p>
-          <h2 class="title is-2" id="method-overview-title">Method Overview</h2>
+      <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
+        <div class="container reading-width">
+          <h2 class="title is-2" id="abstract-title">Abstract</h2>
+          <div class="abstract-copy">
+            <p>
+              Lip-to-speech (LTS) synthesis aims to generate intelligible speech from silent lip movements, but the ambiguous visual-to-phoneme mapping makes content-accurate synthesis challenging. Existing methods mainly follow two routes: (1) direct synthesis from lip movements and (2) synthesis dependent on an external lip-reading model. The former often suffers from content errors, while the latter improves content accuracy at the cost of computational overhead and error propagation. To address these limitations, we introduce FlexLTS, a unified paradigm for content-accurate LTS with optional lip reading. It generates accurate speech without requiring lip reading, while still benefiting from lip-reading text when available. FlexLTS learns phonetic prior embeddings from training transcripts and employs a visual-centric prior fusion mechanism to selectively incorporate relevant phonetic priors into the visual stream, yielding content-enriched semantic representations. Moreover, our proposed Progressive Textual Dropout strategy further promotes prior internalization by reducing reliance on explicit text during training. Experiments show that FlexLTS achieves state-of-the-art content accuracy and speech quality on the popular LRS2-BBC and LRS3-TED benchmarks and also performs well in cross-dataset zero-shot evaluation. Notably, without using any lip-reading model, FlexLTS surpasses existing lip-reading-aided methods in content accuracy.
+            </p>
+          </div>
         </div>
-        <figure class="method-figure">
-          <a class="method-figure-link" href="./model_figure.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the original FlexLTS framework figure as a PDF">
-            <img
-              src="./assets/images/model_figure.png"
-              width="2400"
-              height="1186"
-              loading="lazy"
-              decoding="async"
-              alt="Overview diagram of the FlexLTS framework">
-          </a>
-          <figcaption>
-            Overview of the FlexLTS framework.
-            <a href="./model_figure.pdf" target="_blank" rel="noopener noreferrer">Open the original PDF</a>
-            for a full-resolution view.
-          </figcaption>
-        </figure>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <div class="results-intro" id="demo-results">
       <div class="container reading-width">
