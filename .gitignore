@@ -1,0 +1,24 @@
+# Local-only project instructions and development tools
+/LOCAL_GUIDE.md
+/docs/
+/scripts/
+/tests/
+
+# Local preview output
+*.log
+*.pid
+/preview-*.png
+/.edge-*/
+/.figure-tools/
+
+# Dependency and editor artifacts
+/node_modules/
+/.vscode/
+/.idea/
+/.agents/
+/.codex/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FlexLTS is a unified paradigm for content-accurate lip-to-speech synthesis with optional lip reading.">
+  <meta name="keywords" content="FlexLTS, lip-to-speech, lip reading, speech synthesis, LRS2, LRS3">
+  <meta name="citation_title" content="FlexLTS: A Unified Paradigm for Content-Accurate Lip-to-Speech Synthesis with Optional Lip Reading">
+  <meta name="citation_author" content="Zhechen Liu">
+  <meta name="citation_author" content="Shuang Yang">
+  <meta name="citation_author" content="Shiguang Shan">
+  <meta name="citation_author" content="Xilin Chen">
+  <meta name="theme-color" content="#f7fafc">
+  <title>FlexLTS — Content-Accurate Lip-to-Speech Synthesis</title>
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="hero paper-hero">
+    <div class="hero-body">
+      <div class="container paper-header">
+        <p class="eyebrow">Research Project</p>
+        <h1 class="title paper-title">
+          <span class="paper-title-mark">FlexLTS:</span>
+          A Unified Paradigm for Content-Accurate Lip-to-Speech Synthesis with Optional Lip Reading
+        </h1>
+
+        <div class="authors" aria-label="Authors">
+          <a href="https://github.com/JasonLiu20020101" target="_blank" rel="noopener noreferrer">Zhechen Liu<sup>1,2</sup></a>
+          <a href="https://vipl.ict.ac.cn/people/syang/" target="_blank" rel="noopener noreferrer">Shuang Yang<sup>1,2</sup></a>
+          <a href="https://vipl.ict.ac.cn/people/sgshan/" target="_blank" rel="noopener noreferrer">Shiguang Shan<sup>1,2</sup></a>
+          <a href="https://vipl.ict.ac.cn/people/xlchen/" target="_blank" rel="noopener noreferrer">Xilin Chen<sup>1,2</sup></a>
+        </div>
+
+        <div class="affiliations">
+          <p><sup>1</sup> State Key Laboratory of AI Safety, Institute of Computing Technology,<br class="affiliation-break"> Chinese Academy of Sciences</p>
+          <p><sup>2</sup> University of Chinese Academy of Sciences</p>
+        </div>
+
+        <div class="contacts" aria-label="Contact email addresses">
+          <a href="mailto:liuzhechen20a@mails.ucas.ac.cn">liuzhechen20a@mails.ucas.ac.cn</a>
+          <span aria-hidden="true">·</span>
+          <a href="mailto:shuang.yang@ict.ac.cn">{shuang.yang, sgshan, xlchen}@ict.ac.cn</a>
+        </div>
+
+        <div class="paper-links" aria-label="Project resources">
+          <a id="paper-link" class="button paper-link is-disabled" aria-disabled="true" tabindex="-1">
+            Paper <span class="button-note">Coming soon</span>
+          </a>
+          <a class="button paper-link paper-link--secondary" href="#demo-results">Explore demos</a>
+        </div>
+
+        <nav class="section-nav" aria-label="Page sections">
+          <a href="#abstract">Abstract</a>
+          <a href="#method-overview">Method</a>
+          <a href="#lrs2">LRS2</a>
+          <a href="#lrs3">LRS3</a>
+          <a href="#real-world">Real World</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
+      <div class="container reading-width">
+        <p class="section-kicker">Overview</p>
+        <h2 class="title is-2" id="abstract-title">Abstract</h2>
+        <div class="abstract-copy">
+          <p>
+            Lip-to-speech (LTS) synthesis aims to generate intelligible speech from silent lip movements, but the ambiguous visual-to-phoneme mapping makes content-accurate synthesis challenging. Existing methods mainly follow two routes: (1) direct synthesis from lip movements and (2) synthesis dependent on an external lip-reading model. The former often suffers from content errors, while the latter improves content accuracy at the cost of computational overhead and error propagation. To address these limitations, we introduce FlexLTS, a unified paradigm for content-accurate LTS with optional lip reading. It generates accurate speech without requiring lip reading, while still benefiting from lip-reading text when available. FlexLTS learns phonetic prior embeddings from training transcripts and employs a visual-centric prior fusion mechanism to selectively incorporate relevant phonetic priors into the visual stream, yielding content-enriched semantic representations. Moreover, our proposed Progressive Textual Dropout strategy further promotes prior internalization by reducing reliance on explicit text during training. Experiments show that FlexLTS achieves state-of-the-art content accuracy and speech quality on the popular LRS2-BBC and LRS3-TED benchmarks and also performs well in cross-dataset zero-shot evaluation. Notably, without using any lip-reading model, FlexLTS surpasses existing lip-reading-aided methods in content accuracy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional figure: set showModelFigure to false in site-config.js to hide this section. -->
+    <section class="section method-overview-section" id="method-overview" aria-labelledby="method-overview-title">
+      <div class="container method-figure-width">
+        <div class="method-overview-heading">
+          <p class="section-kicker">Framework</p>
+          <h2 class="title is-2" id="method-overview-title">Method Overview</h2>
+        </div>
+        <figure class="method-figure">
+          <a class="method-figure-link" href="./model_figure.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the original FlexLTS framework figure as a PDF">
+            <img
+              src="./assets/images/model_figure.png"
+              width="2400"
+              height="1186"
+              loading="lazy"
+              decoding="async"
+              alt="Overview diagram of the FlexLTS framework">
+          </a>
+          <figcaption>
+            Overview of the FlexLTS framework.
+            <a href="./model_figure.pdf" target="_blank" rel="noopener noreferrer">Open the original PDF</a>
+            for a full-resolution view.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="results-intro" id="demo-results">
+      <div class="container reading-width">
+        <p class="section-kicker">Audio-visual comparisons</p>
+        <h2 class="title is-2">Demo Results</h2>
+        <p>Select a sample and compare FlexLTS with prior methods. For the best experience, please use headphones.</p>
+      </div>
+    </div>
+
+    <section class="demo-section section" id="lrs2" aria-labelledby="lrs2-title">
+      <div class="container is-fluid demo-container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Benchmark 01</p>
+            <h2 class="title is-2" id="lrs2-title">LRS2</h2>
+          </div>
+          <p>Comparison results on the LRS2-BBC benchmark.</p>
+        </div>
+        <div class="demo-mount" data-dataset="lrs2"></div>
+      </div>
+    </section>
+
+    <section class="demo-section section section-tinted" id="lrs3" aria-labelledby="lrs3-title">
+      <div class="container is-fluid demo-container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Benchmark 02</p>
+            <h2 class="title is-2" id="lrs3-title">LRS3</h2>
+          </div>
+          <p>Comparison results on the LRS3-TED benchmark.</p>
+        </div>
+        <div class="demo-mount" data-dataset="lrs3"></div>
+      </div>
+    </section>
+
+    <section class="demo-section section" id="real-world" aria-labelledby="real-world-title">
+      <div class="container is-fluid demo-container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Zero-shot evaluation</p>
+            <h2 class="title is-2" id="real-world-title">Real World Videos</h2>
+          </div>
+          <p>Cross-dataset examples with ground-truth and visual speech recognition text.</p>
+        </div>
+        <div class="demo-mount" data-dataset="real-world"></div>
+      </div>
+    </section>
+
+    <noscript>
+      <div class="noscript-message" role="alert">
+        JavaScript is required to browse the comparison videos. Please enable JavaScript and reload this page.
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container reading-width">
+      <p>FlexLTS project page.</p>
+      <p class="attribution">
+        Website structure inspired by the
+        <a href="https://github.com/nerfies/nerfies.github.io" target="_blank" rel="noopener noreferrer">Nerfies project page</a>
+        (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>).
+        Responsive foundation by
+        <a href="https://bulma.io/" target="_blank" rel="noopener noreferrer">Bulma</a>
+        (<a href="https://opensource.org/license/mit" target="_blank" rel="noopener noreferrer">MIT License</a>).
+      </p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/site-config.js"></script>
+  <script src="./assets/js/demo-data.js"></script>
+  <script src="./assets/js/site.js"></script>
+</body>
+</html>
