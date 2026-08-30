@@ -392,6 +392,11 @@ video:focus-visible {
   text-align: right;
 }
 
+.real-world-description {
+  max-width: none !important;
+  white-space: nowrap;
+}
+
 .demo-mount {
   min-height: 19rem;
 }
@@ -700,6 +705,10 @@ video:focus-visible {
 
   .section-heading > p {
     text-align: left;
+  }
+
+  .real-world-description {
+    white-space: normal;
   }
 
   .sample-picker {

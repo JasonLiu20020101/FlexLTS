@@ -4,12 +4,12 @@ window.FLEXLTS_DATA = {
   "datasets": [
     {
       "id": "lrs2",
-      "title": "LRS2",
+      "title": "LRS2-BBC",
       "description": "Comparison results on the LRS2-BBC benchmark.",
       "samples": [
         {
           "id": "main_6332062124509813446_00059",
-          "label": "Sample 01",
+          "label": "main_6332062124509813446_00059",
           "transcript": "BUT I THINK WHAT WE'RE SEEING HERE IS KIND OF THE BLUEPRINT",
           "videos": [
             {
@@ -76,7 +76,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6335305254315087182_00011",
-          "label": "Sample 02",
+          "label": "main_6335305254315087182_00011",
           "transcript": "YOU NEVER KNOW BY THE END OF THE BUILD",
           "videos": [
             {
@@ -143,7 +143,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6336047424663836038_00006",
-          "label": "Sample 03",
+          "label": "main_6336047424663836038_00006",
           "transcript": "NOT QUITE AS HIGH",
           "videos": [
             {
@@ -210,7 +210,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6336117003133970558_00018",
-          "label": "Sample 04",
+          "label": "main_6336117003133970558_00018",
           "transcript": "WE'LL GIVE IT A TRY",
           "videos": [
             {
@@ -277,7 +277,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6336739343895160063_00052",
-          "label": "Sample 05",
+          "label": "main_6336739343895160063_00052",
           "transcript": "I THINK IT LOOKS GREAT",
           "videos": [
             {
@@ -344,7 +344,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6336739343895160063_00056",
-          "label": "Sample 06",
+          "label": "main_6336739343895160063_00056",
           "transcript": "AND IT'S A GREAT WAY TO EAT IT",
           "videos": [
             {
@@ -411,7 +411,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6339077953587836416_00002",
-          "label": "Sample 07",
+          "label": "main_6339077953587836416_00002",
           "transcript": "AFTER JUST A COUPLE OF DAYS",
           "videos": [
             {
@@ -478,7 +478,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6343252661930009508_00008",
-          "label": "Sample 08",
+          "label": "main_6343252661930009508_00008",
           "transcript": "ONE NORTHERN WELSH RULER",
           "videos": [
             {
@@ -545,7 +545,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6344547594439294233_00037",
-          "label": "Sample 09",
+          "label": "main_6344547594439294233_00037",
           "transcript": "WHAT HAVE YOU LEARNED",
           "videos": [
             {
@@ -612,7 +612,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6347195441777342774_00160",
-          "label": "Sample 10",
+          "label": "main_6347195441777342774_00160",
           "transcript": "BUT IT HAS ESTABLISHED THE INFRASTRUCTURE OF A POLICE STATE AND IT COULD BE OPEN TO ABUSE IN THE",
           "videos": [
             {
@@ -679,7 +679,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6349559821273762790_00010",
-          "label": "Sample 11",
+          "label": "main_6349559821273762790_00010",
           "transcript": "ALSO KNOWN AS A TANDEM",
           "videos": [
             {
@@ -746,7 +746,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6352157417494386368_00030",
-          "label": "Sample 12",
+          "label": "main_6352157417494386368_00030",
           "transcript": "IT WAS REALLY NICE",
           "videos": [
             {
@@ -813,7 +813,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6354346562325159922_00011",
-          "label": "Sample 13",
+          "label": "main_6354346562325159922_00011",
           "transcript": "THIS IS WHERE THE SURPRISES HAPPEN",
           "videos": [
             {
@@ -880,7 +880,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6356878445546153116_00004",
-          "label": "Sample 14",
+          "label": "main_6356878445546153116_00004",
           "transcript": "HIS FATHER DIED",
           "videos": [
             {
@@ -947,7 +947,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6358830508182123252_00017",
-          "label": "Sample 15",
+          "label": "main_6358830508182123252_00017",
           "transcript": "IF YOU'VE GOT A QUESTION FOR EITHER OF THEM",
           "videos": [
             {
@@ -1014,7 +1014,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6362162543810362236_00034",
-          "label": "Sample 16",
+          "label": "main_6362162543810362236_00034",
           "transcript": "WITH FAMILY AND FRIENDS",
           "videos": [
             {
@@ -1081,7 +1081,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6362913733590438579_00204",
-          "label": "Sample 17",
+          "label": "main_6362913733590438579_00204",
           "transcript": "IN VICTORIAN BRITAIN",
           "videos": [
             {
@@ -1148,7 +1148,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6362913733590438579_00207",
-          "label": "Sample 18",
+          "label": "main_6362913733590438579_00207",
           "transcript": "ON THE ORDERS OF QUEEN VICTORIA",
           "videos": [
             {
@@ -1215,7 +1215,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6365888857436445152_00006",
-          "label": "Sample 19",
+          "label": "main_6365888857436445152_00006",
           "transcript": "YOU DON'T HAVE TO BE A CELEBRITY",
           "videos": [
             {
@@ -1282,7 +1282,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6369912812296002056_00009",
-          "label": "Sample 20",
+          "label": "main_6369912812296002056_00009",
           "transcript": "BACK TO THE HISTORY BOOKS",
           "videos": [
             {
@@ -1349,7 +1349,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6370331571607430336_00009",
-          "label": "Sample 21",
+          "label": "main_6370331571607430336_00009",
           "transcript": "AND ON THIS FATEFUL EVENING",
           "videos": [
             {
@@ -1416,7 +1416,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6371114973642156346_00011",
-          "label": "Sample 22",
+          "label": "main_6371114973642156346_00011",
           "transcript": "HERE'S SOME IDEAS",
           "videos": [
             {
@@ -1483,7 +1483,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6374083655167624227_00085",
-          "label": "Sample 23",
+          "label": "main_6374083655167624227_00085",
           "transcript": "WHICH IS ABSOLUTELY UNDERSTANDABLE",
           "videos": [
             {
@@ -1550,7 +1550,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6375915888085690147_00048",
-          "label": "Sample 24",
+          "label": "main_6375915888085690147_00048",
           "transcript": "AND ALL THE SURVIVORS OF THE HOLOCAUST",
           "videos": [
             {
@@ -1617,7 +1617,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "main_6377365439548029922_00007",
-          "label": "Sample 25",
+          "label": "main_6377365439548029922_00007",
           "transcript": "25 YEARS TO COMPLETE",
           "videos": [
             {
@@ -1686,12 +1686,12 @@ window.FLEXLTS_DATA = {
     },
     {
       "id": "lrs3",
-      "title": "LRS3",
+      "title": "LRS3-TED",
       "description": "Comparison results on the LRS3-TED benchmark.",
       "samples": [
         {
           "id": "test_1bnzVjOJ6NM_00017",
-          "label": "Sample 01",
+          "label": "test_1bnzVjOJ6NM_00017",
           "transcript": "WELL ONCE AGAIN WOMEN GET THE ANGIOGRAM AND NOBODY CAN TELL THAT THEY HAVE A PROBLEM",
           "videos": [
             {
@@ -1758,7 +1758,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_2SlBiFZ85d0_00003",
-          "label": "Sample 02",
+          "label": "test_2SlBiFZ85d0_00003",
           "transcript": "WE'RE NOT JUST PART OF THE SAME SPECIES",
           "videos": [
             {
@@ -1825,7 +1825,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_4n8qT0vQbWk_00003",
-          "label": "Sample 03",
+          "label": "test_4n8qT0vQbWk_00003",
           "transcript": "WE HAVE TO DECIDE WHAT IT MEANS",
           "videos": [
             {
@@ -1892,7 +1892,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_5b5BDoddOLA_00002",
-          "label": "Sample 04",
+          "label": "test_5b5BDoddOLA_00002",
           "transcript": "WE WEREN'T CONSIDERED THE REAL THING",
           "videos": [
             {
@@ -1959,7 +1959,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_81Ub0SMxZQo_00001",
-          "label": "Sample 05",
+          "label": "test_81Ub0SMxZQo_00001",
           "transcript": "I'M TALKING ABOUT TEACHERS",
           "videos": [
             {
@@ -2026,7 +2026,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_8vNIrPeRGlM_00001",
-          "label": "Sample 06",
+          "label": "test_8vNIrPeRGlM_00001",
           "transcript": "IT CRACKED OPEN MY WORLD",
           "videos": [
             {
@@ -2093,7 +2093,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_aoGJP02CtPA_00003",
-          "label": "Sample 07",
+          "label": "test_aoGJP02CtPA_00003",
           "transcript": "EFFECTIVELY THE TALIBAN CREATE A COMPLETE BLACKOUT OF ANY OTHER SOURCE OF INFORMATION",
           "videos": [
             {
@@ -2160,7 +2160,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_j7fRIGphgtk_00001",
-          "label": "Sample 08",
+          "label": "test_j7fRIGphgtk_00001",
           "transcript": "WELL I DIDN'T HAVE ANY IDEA",
           "videos": [
             {
@@ -2227,7 +2227,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_KuWXfjyGhk0_00004",
-          "label": "Sample 09",
+          "label": "test_KuWXfjyGhk0_00004",
           "transcript": "THERE WILL BE INVISIBLE CAPACITY",
           "videos": [
             {
@@ -2294,7 +2294,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_mSHBma0Ithk_00003",
-          "label": "Sample 10",
+          "label": "test_mSHBma0Ithk_00003",
           "transcript": "LET US HAVE A HONG KONG NEARBY",
           "videos": [
             {
@@ -2361,7 +2361,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_NoCOagL69Ss_00001",
-          "label": "Sample 11",
+          "label": "test_NoCOagL69Ss_00001",
           "transcript": "TO ME IT'S NOT THAT CLEAR",
           "videos": [
             {
@@ -2428,7 +2428,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_Ok6LbV6bqaE_00005",
-          "label": "Sample 12",
+          "label": "test_Ok6LbV6bqaE_00005",
           "transcript": "BUT IT'S USEFUL FOR EVERYBODY TO LEARN HOW TO READ AND WRITE",
           "videos": [
             {
@@ -2495,7 +2495,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_PbgB2TaYhio_00007",
-          "label": "Sample 13",
+          "label": "test_PbgB2TaYhio_00007",
           "transcript": "IT'S JUST NOT POSSIBLE",
           "videos": [
             {
@@ -2562,7 +2562,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_psN1DORYYV0_00006",
-          "label": "Sample 14",
+          "label": "test_psN1DORYYV0_00006",
           "transcript": "HAVE YOU LOST YOUR MIND",
           "videos": [
             {
@@ -2629,7 +2629,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_qWNae7vYK6s_00004",
-          "label": "Sample 15",
+          "label": "test_qWNae7vYK6s_00004",
           "transcript": "I WAS PETRIFIED",
           "videos": [
             {
@@ -2696,7 +2696,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_RDSSLJG7oi8_00001",
-          "label": "Sample 16",
+          "label": "test_RDSSLJG7oi8_00001",
           "transcript": "I'M NOT STRONG ENOUGH TO LIFT MY CARRY ON BAG FROM THE GROUND TO THE CAROUSEL",
           "videos": [
             {
@@ -2763,7 +2763,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_Sa27SUR0Mlo_00001",
-          "label": "Sample 17",
+          "label": "test_Sa27SUR0Mlo_00001",
           "transcript": "YOU SEE THERE'S A LOT OF THINGS WE JUST DON'T HAVE DATA ON",
           "videos": [
             {
@@ -2830,7 +2830,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_SN7wO06Yz1E_00009",
-          "label": "Sample 18",
+          "label": "test_SN7wO06Yz1E_00009",
           "transcript": "I KNOW YOU UNDERSTAND THAT",
           "videos": [
             {
@@ -2897,7 +2897,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_SWiwSBLXS3k_00008",
-          "label": "Sample 19",
+          "label": "test_SWiwSBLXS3k_00008",
           "transcript": "SO WHAT DID THEY DO",
           "videos": [
             {
@@ -2964,7 +2964,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_SWvJxasiSZ8_00004",
-          "label": "Sample 20",
+          "label": "test_SWvJxasiSZ8_00004",
           "transcript": "BUT PEOPLE DID NOT RELATE TO THIS",
           "videos": [
             {
@@ -3031,7 +3031,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_t2gbcVaZ448_00004",
-          "label": "Sample 21",
+          "label": "test_t2gbcVaZ448_00004",
           "transcript": "WHAT IF I HAD TOLD HER MY STORY YEARS AGO",
           "videos": [
             {
@@ -3098,7 +3098,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_TDaFwnOiKVE_00002",
-          "label": "Sample 22",
+          "label": "test_TDaFwnOiKVE_00002",
           "transcript": "AND I SAID THAT'S A GOOD JOB",
           "videos": [
             {
@@ -3165,7 +3165,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_vhVWzkbAW4I_00008",
-          "label": "Sample 23",
+          "label": "test_vhVWzkbAW4I_00008",
           "transcript": "WE KNOW THAT EVERY CELL HAS A SEX",
           "videos": [
             {
@@ -3232,7 +3232,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_xFSCX9mAHPo_00003",
-          "label": "Sample 24",
+          "label": "test_xFSCX9mAHPo_00003",
           "transcript": "IF WE'RE STILL HUNGRY WE MIGHT HAVE SOME MORE",
           "videos": [
             {
@@ -3299,7 +3299,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "test_YzGjO5aHShQ_00016",
-          "label": "Sample 25",
+          "label": "test_YzGjO5aHShQ_00016",
           "transcript": "WE'RE GOING TO STAY WITH THEM FOREVER",
           "videos": [
             {
@@ -3369,11 +3369,11 @@ window.FLEXLTS_DATA = {
     {
       "id": "real-world",
       "title": "Real World Videos",
-      "description": "Cross-dataset examples collected from real-world videos.",
+      "description": "Unseen real-world videos. VSR text is used only as input in the LR-aided setting.",
       "samples": [
         {
           "id": "sample_01",
-          "label": "Sample 01",
+          "label": "sample_01",
           "transcript": "ALL I HAVE TO SAY IS THAT THIS IS HARD WORK I WORKED HARD FOR A LONG TIME AND IT'S NOT ABOUT YOU KNOW",
           "vsrTranscript": "ALL I HAVE TO SAY IS THAT THIS IS HARD WORK I'VE WORKED HARD FOR A LONG TIME AND IT'S NOT ABOUT YOU KNOW",
           "videos": [
@@ -3405,7 +3405,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_02",
-          "label": "Sample 02",
+          "label": "sample_02",
           "transcript": "WORLD FOR THE LAST TWO YEARS DOCUMENTING HOW THIS CRISIS IS CHANGING THE NATURAL BALANCE",
           "vsrTranscript": "WORLD FOR THE LAST TWO YEARS DOCUMENTING EVIDENCE CRISIS IS CHANGING THE ACTUAL BALANCE OF",
           "videos": [
@@ -3437,7 +3437,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_03",
-          "label": "Sample 03",
+          "label": "sample_03",
           "transcript": "I STARTED QUESTIONING GENDER BASED ASSUMPTIONS A LONG TIME AGO",
           "vsrTranscript": "START TO QUESTION GENDER BASED ASSUMPTIONS ALL THE TIME TOO",
           "videos": [
@@ -3469,7 +3469,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_04",
-          "label": "Sample 04",
+          "label": "sample_04",
           "transcript": "AND I HOPE WE JUST KEEP PUSHING FORWARD OPEN INDOORS",
           "vsrTranscript": "AND I HOPE WE JUST KEEP PUSHING FORWARD OPEN DOORS",
           "videos": [
@@ -3501,7 +3501,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_05",
-          "label": "Sample 05",
+          "label": "sample_05",
           "transcript": "I JUST HOPE",
           "vsrTranscript": "HOW DO YOU COPE",
           "videos": [
@@ -3533,7 +3533,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_06",
-          "label": "Sample 06",
+          "label": "sample_06",
           "transcript": "WHEN I WAS YOUNG THERE WAS AN AMAZING PUBLICATION CALLED THE WHOLE EARTH CATALOG WHICH WAS ONE OF THE BIBLES OF MY GENERATION IT WAS CREATED",
           "vsrTranscript": "WHEN I UNDERSTAND THERE WAS A BASIC PUBLICATION ON THE WHOLE NOT ALL OF THE PEOPLE IN THE BIBLE BY GENERATIONS",
           "videos": [
@@ -3565,7 +3565,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_07",
-          "label": "Sample 07",
+          "label": "sample_07",
           "transcript": "JEHOVAH GOD FOR THIS I WAS DOWN AND OUT AND HE HELPED ME TODAY AND I JUST SAID PRAYERS AND JUST NOT TO WIN BUT TO BE STRONG AND TO BE HEALTHY AND",
           "vsrTranscript": "HE TOOK OVER THE COFFEE THE DAY WHEN HE WAS OUT AND OUT AND HE HELPED ME AGAIN AT THAT POINT I JUST WANTED ME TO BE STRONG I JUST NEEDED TO BE HEALTHY",
           "videos": [
@@ -3597,7 +3597,7 @@ window.FLEXLTS_DATA = {
         },
         {
           "id": "sample_08",
-          "label": "Sample 08",
+          "label": "sample_08",
           "transcript": "I'LL SAY IT AGAIN YOU'LL NEVER SEE A UHAUL BEHIND A HEARSE I DON'T CARE HOW MUCH MONEY YOU MAKE YOU CAN'T TAKE IT WITH YOU",
           "vsrTranscript": "I SAY THIS YOU'LL NEVER SEE A LITTLE WALL BEHIND HER I DON'T CARE HOW MUCH MONEY DO YOU MAKE YOU SAY YEAH TAKE IT WITH YOU",
           "videos": [

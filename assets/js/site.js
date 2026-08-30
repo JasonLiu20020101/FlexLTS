@@ -65,6 +65,18 @@
     return visible;
   }
 
+  function getSampleOptionLabel(sample) {
+    return sample?.id || '';
+  }
+
+  function getMethodBadgeLabel(group) {
+    const labels = {
+      'ground-truth': 'GT',
+      ours: 'FlexLTS',
+    };
+    return labels[group] || null;
+  }
+
   function createElement(documentRef, tagName, className, text) {
     const element = documentRef.createElement(tagName);
     if (className) element.className = className;
@@ -105,20 +117,11 @@
       `video-card video-card--${videoDefinition.group}`,
     );
     const header = createElement(documentRef, 'div', 'video-card-header');
-    const badgeLabels = {
-      'ground-truth': 'Reference',
-      ours: 'FlexLTS',
-      baseline: 'Baseline',
-    };
-    header.append(
-      createElement(documentRef, 'span', 'method-name', videoDefinition.label),
-      createElement(
-        documentRef,
-        'span',
-        'method-badge',
-        badgeLabels[videoDefinition.group] || 'Method',
-      ),
-    );
+    header.append(createElement(documentRef, 'span', 'method-name', videoDefinition.label));
+    const badgeLabel = getMethodBadgeLabel(videoDefinition.group);
+    if (badgeLabel) {
+      header.append(createElement(documentRef, 'span', 'method-badge', badgeLabel));
+    }
 
     const frame = createElement(documentRef, 'div', 'video-frame');
     const video = createElement(documentRef, 'video');
@@ -146,12 +149,7 @@
     const select = createElement(documentRef, 'select', 'sample-select');
     select.id = selectId;
     dataset.samples.forEach((sample, index) => {
-      const option = createElement(
-        documentRef,
-        'option',
-        '',
-        `${sample.label} — ${sample.id}`,
-      );
+      const option = createElement(documentRef, 'option', '', getSampleOptionLabel(sample));
       option.value = String(index);
       select.append(option);
     });
@@ -267,6 +265,8 @@
     releaseVideos,
     configurePaperLink,
     configureOptionalSection,
+    getSampleOptionLabel,
+    getMethodBadgeLabel,
     initialize,
   };
 
