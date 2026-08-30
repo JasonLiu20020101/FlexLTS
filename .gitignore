@@ -3,6 +3,7 @@
 /docs/
 /scripts/
 /tests/
+/THIRD_PARTY_NOTICES.md
 
 # Local preview output
 *.log
