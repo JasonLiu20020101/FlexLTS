@@ -208,6 +208,25 @@ video:focus-visible {
   box-shadow: none;
 }
 
+#paper-link.paper-link {
+  height: auto;
+  min-height: 3.5rem;
+  flex-direction: column;
+  padding-block: 0.5rem;
+  line-height: 1.15;
+  text-align: center;
+  white-space: normal;
+}
+
+.paper-link-label {
+  display: block;
+}
+
+.paper-link-separator {
+  margin-inline: 0.22rem;
+  opacity: 0.62;
+}
+
 .paper-link--secondary.button {
   border-color: var(--line);
   background: #fff;
@@ -225,13 +244,12 @@ video:focus-visible {
 }
 
 .button-note {
-  margin-left: 0.5rem;
-  padding-left: 0.5rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.45);
-  font-size: 0.69rem;
-  font-weight: 700;
+  display: block;
+  margin-top: 0.22rem;
+  font-size: 0.66rem;
+  font-weight: 650;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+  opacity: 0.78;
 }
 
 .reading-width {

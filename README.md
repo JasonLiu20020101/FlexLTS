@@ -4,6 +4,8 @@
 
 ### A Unified Paradigm for Content-Accurate Lip-to-Speech Synthesis with Optional Lip Reading
 
+**EMNLP 2026 Main Conference (Oral)**
+
 [![Project Page](https://img.shields.io/badge/Project_Page-Visit-0F172A?style=flat-square&logo=googlechrome&logoColor=white)](https://jasonliu20020101.github.io/FlexLTS/)
 
 ## Framework
