@@ -208,16 +208,6 @@ video:focus-visible {
   box-shadow: none;
 }
 
-#paper-link.paper-link {
-  height: auto;
-  min-height: 3.5rem;
-  flex-direction: column;
-  padding-block: 0.5rem;
-  line-height: 1.15;
-  text-align: center;
-  white-space: normal;
-}
-
 .paper-link-label {
   display: block;
 }
@@ -241,15 +231,6 @@ video:focus-visible {
 .paper-link.is-disabled {
   cursor: not-allowed;
   opacity: 0.58;
-}
-
-.button-note {
-  display: block;
-  margin-top: 0.22rem;
-  font-size: 0.66rem;
-  font-weight: 650;
-  letter-spacing: 0.04em;
-  opacity: 0.78;
 }
 
 .reading-width {
